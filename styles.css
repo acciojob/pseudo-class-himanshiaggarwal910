@@ -1,4 +1,22 @@
-#container {
+/*  your css code here. If applicable */
+#container{
+	margin:20px;
+}
+#container::before{
+	content:"Before Element";
+	color:red;
+	font-size:20px;
+}
+#container::after{
+	content:"After Element";
+	color:red;
+	font-size:20px;
+}
+
+
+
+
+/* #container {
     margin: 20px;
     position: relative;
 }
@@ -19,4 +37,4 @@
 #container::after {
     right: 0;
     bottom: -30px;
-}
+} */
